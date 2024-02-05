@@ -10,7 +10,7 @@ docker-compose up
 ```
 
 After the containers are running, you can navigate to `http://localhost:3000` in your browser to see the frontend.
-To see the backend API, navigate to `https://localhost:5001/swagger/index.html` in your browser.
+To see the backend API, navigate to `http://localhost:5001/swagger/index.html` in your browser.
 The backend has a few endpoints that are protected by an API key, which is passed in the Authorization header.
 The API key is `apisecret`.
 
